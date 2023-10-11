@@ -1,0 +1,93 @@
+@import 'reset.css';
+@import 'variables.css';
+@import 'status-bar.css';
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.welcome-header {
+    margin: 90px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-header__title {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.welcome-header__text {
+    width: 60%;
+    opacity: 0.5;
+    margin-bottom: 2px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
+}
+
+.login-form input {
+    border: none;
+    padding: 18px 0;
+    font-size: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    transition: border-color 0.3s ease-in-out;
+}
+
+.login-form input::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.login-form input:focus {
+    border-color: var(--yellow);
+}
+
+.login-btn {
+    margin-top: 30px;
+    padding: 18px 0;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.login-btn:hover {
+    background-color: #dcdcdc;
+}
+
+.signup-btn {
+    margin-top: 15px;
+    padding: 18px 0;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signup-btn:hover {
+    background-color: #dcdcdc;
+}
+
+.login-form a {
+    margin-top: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
+
+.login-form a:hover {
+    opacity: 1;
+}
