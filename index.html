@@ -25,19 +25,14 @@
         <header class="welcome-header">
             <h1 class="welcome-header__title">Welcome to KokoaTalk</h1>
             <p class="welcome-header__text">If you have a Kokoa Account,</p>
-            <p class="welcome-header__text">
-                log in with your email or phone number.
-            </p>
+            <p class="welcome-header__text">log in with your email or phone number.</p>
         </header>
 
-        <form class="login-form">
-            <input type="text" placeholder="Email or phone number" />
-            <input type="password" placeholder="Password" />
-            <a class="login-btn" href="#">Log In</a>
-            <a class="signup-btn" href="#">Sign Up</a>
-            <!-- <button class="login-btn">Log In</button>
-            <button class="signup-btn">Sign Up</button> -->
-            <a class="find-btn" href="#">Find Kokoa Account or Password</a>
+        <form action="friends.html" method="get" class="login-form">
+            <input name="username" type="text" placeholder="Email or phone number" required />
+            <input name="password" type="password" placeholder="Password" required />
+            <input type="submit" value="Log In" />
+            <a href="#">Find Kokoa Account or Password</a>
         </form>
     </body>
 </html>
