@@ -53,3 +53,15 @@
     margin-bottom: 10px;
     display: block;
 }
+
+.user-component__subtitle-icon {
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    color: tomato;
+    border: 1px solid;
+    border-radius: 20px;
+}
