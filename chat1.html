@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Chat - KokoaTalk</title>
+    </head>
+    <body id="chat-screen">
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>23:45</span>
+            </div>
+            <div class="status-bar__column">
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-solid fa-battery-full fa-lg"></i>
+            </div>
+        </div>
+
+        <header class="alt-header">
+            <div class="alt-header__column">
+                <a href="chats.html">
+                    <i class="fa-solid fa-angle-left fa-xl"></i>
+                </a>
+            </div>
+            <div class="alt-header__column">
+                <span class="alt-header__title">KokoaTalk</span>
+            </div>
+            <div class="alt-header__column">
+                <span><i class="fa-solid fa-magnifying-glass fa-xl"></i></span>
+                <span><i class="fa-solid fa-bars fa-xl"></i></span>
+            </div>
+        </header>
+
+        <main class="main-screen main-chat">
+            <div class="chat__timestamp">Friday, June 30, 2023</div>
+
+            <div class="message-row">
+                <img
+                    src="https://blog.kakaocdn.net/dn/SrDTV/btrb8U2oU6B/KmR3YeMZVn4WZFZMN6QhX1/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1%20%EC%B1%84%EB%84%90%20%EB%A1%9C%EA%B3%A0%20%EB%9D%BC%EC%9A%B4%EB%93%9C.png?attach=1&knm=img.png"
+                />
+                <div class="message-row__content">
+                    <span class="message__author">KokoaTalk</span>
+                    <div class="message__info">
+                        <span class="message__bubble">Check My Kokoa Account Info</span>
+                        <span class="message__time">20:27</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <form class="reply">
+            <div class="reply__column">
+                <i class="fa-regular fa-square-plus fa-2x"></i>
+            </div>
+            <div class="reply__column">
+                <input type="text" placeholder="Write a message" />
+                <i class="fa-regular fa-face-smile fa-xl"></i>
+                <button>
+                    <i class="fa-solid fa-arrow-up fa-xl"></i>
+                </button>
+            </div>
+        </form>
+    </body>
+</html>
